@@ -1,6 +1,6 @@
 # SRF Linktree
 
-Empty project.
+A page of links and resources for all things SRF.
 
 ## Building and running on localhost
 
@@ -13,7 +13,7 @@ npm install
 To run in hot module reloading mode:
 
 ```sh
-npm start
+npm run dev
 ```
 
 To create a production build:
@@ -25,10 +25,5 @@ npm run build
 ## Running
 
 ```sh
-node dist/bundle.js
+npm run serve
 ```
-
-## Credits
-
-Made with [createapp.dev](https://createapp.dev/)
-
