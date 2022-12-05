@@ -7,15 +7,14 @@
 	"author": "Daniel W. Robert",
 	"license": "ISC",
 	"scripts": {
-		"clean": "rm dist/bundle.js",
-		"start": "parcel src/index.html",
-		"build": "parcel build src/index.html"
+		"dev": "vite",
+		"build": "vite build",
+		"serve": "vite preview"
 	},
 	"devDependencies": {
-		"autoprefixer": "^9.8.8",
-		"parcel-bundler": "^1.12.5",
-		"postcss": "^7.0.39",
-		"prettier": "^2.8.0",
-		"tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17"
+		"autoprefixer": "^10.4.13",
+		"postcss": "^8.4.19",
+		"tailwindcss": "^3.2.4",
+		"vite": "^3.2.4"
 	}
 }
